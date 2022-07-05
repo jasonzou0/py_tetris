@@ -71,7 +71,7 @@ class Tetris:
 
     def __init__(self, width, height):
         # x and y are screen coordinates for the top left corner of the game field.
-        self.x, self.y = 0, 0
+        self.x, self.y = 100, 60
         # zoom controls the size of the grid cell.
         self.zoom = 20
         # level controls the speed of the game
